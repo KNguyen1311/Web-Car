@@ -1,0 +1,360 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;400&display=swap");
+body{
+    font-family: "Roboto" , sans-serif;
+}
+
+
+* {
+    padding: 0;
+    margin: 0;
+}
+body {
+    background-color: white;
+   
+
+}
+.BHeader {
+    width: 100%;
+    height: 200px;
+}
+.container10 {
+    width: 85%;
+    height: 150px;
+    background-size: cover;
+    background-position: center;
+    padding: 10px 8%;
+    left: -20px;
+    background-color: rgb(255, 255, 255);
+    position: relative;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
+
+}
+.IMG {
+    position: absolute;
+    left: 150PX; 
+    top: 60px;
+}
+.support {
+    width: 300px;
+    height: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    left: 30px;
+}
+.support p:hover {
+    color: #00a2d1;
+}
+
+
+.IMG-btn {
+    width: 45%;
+    height: 300px;
+    position: absolute;
+    bottom: 20px;
+    left: -60px;
+    display: block;
+    z-index: 1;
+    transform: skewX(-25deg);
+    background-color: none;
+}
+.IMG-btn21 {
+    width: 60px;
+    height: 60px;
+    background-color:#00a2d1;
+    position: absolute;
+    top: 0px;
+    left: 1476px;}
+.IMG-btn31 {
+    width: 65px;
+    height: 110px;
+    background-color:#000000;
+    position: absolute;
+    top: 59px;
+    left: 1460px;
+    border: 2px solid;
+}
+.IMG-btn2 {
+    width: 54.5%;
+    height: 128px;
+    position: relative;
+    top: -125px;
+    left: 661px;
+    bottom: 170px;
+    display: block;
+    z-index: 0;
+    transform: skewX(-25deg);
+    background-color: #000000;
+    
+}
+
+.IMG-btn3 {
+    width: 53%;
+    height: 60px;
+    position: relative;
+    bottom: 300px;
+    left: 697px;
+    display: block;
+    z-index: 0;
+    transform: skewX(-25deg);
+    background-color: #00a2d1;
+}
+.login {
+    width: 40%;
+    height: 100px;
+    position: absolute;
+    left: 840px;
+    top: 0px;
+    z-index: 1;
+    color: white        ;
+}
+.search {
+    width: 200px;
+    height: 10px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    position: absolute;
+    top: 10px;
+    
+}
+.search > i {
+    font-size: 20px;
+    color: #777;
+}
+.search > input {
+    flex: 1;
+    height: 20px;
+    border: none;
+    outline: none;
+    font-size: 15px;
+}
+.dangnhap {
+    position: absolute;
+    width: 200px;
+    height: 30px;
+    left: 300px;
+    bottom: 60px;
+    font-size: 20px;
+}
+.dangnhap:hover {
+    transition: ease-in;
+    color:#000000
+}
+.dangky {
+    position: absolute;
+    width: 200px;
+    height: 30px;
+    left: 430px;
+    bottom: 60px;
+    font-size: 20px;
+}
+.dangky:hover {
+    transition: ease-in;
+    color:#000000
+}
+.container1 {
+    display: flex;
+    font-size: 20px;
+    position: absolute;
+    top: 80PX;
+    left: 750px;
+}
+.navbar {
+    margin: auto;
+    padding: 0.5rem 1.5rem;
+    background: #000000;
+    border-radius: 1rem;
+    color: #6c757d;
+}
+.nav-links {
+    display: flex;
+    gap: 2rem;
+}
+.nav-link, .drop-down li {
+    list-style: none;
+    height: 100%;
+    padding: 0.5rem 1rem;
+    font-weight: 600;
+    cursor: pointer;
+}
+a {
+    text-decoration: none;
+    color: currentColor;
+}
+.drop-down {
+    position: absolute;
+    width: 300px;
+    padding: 0.5rem 0;
+    margin: 0.5rem -0.5rem;
+    background:#9b9393;
+    color: rgb(255, 252, 252);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    border-radius: 0.5rem;
+    font-size: 20px;
+    display: none;
+    z-index: 10;
+
+}
+.nav-link:hover {
+    background-color: rgb(0, 0, 0);
+    color: #fff;
+    border-radius: 0.5rem;
+}
+.services:hover .drop-down {
+    display: block;
+}
+.services a {
+    display: flex;
+}
+.icon {
+    font-size: 15px;
+    position: relative;
+    right: -5px;
+    transform: rotate(0deg);
+    transition: 0.3 ease-in-out all;
+
+}
+.services:hover .icon {
+    transform: rotate(180deg);
+}
+.drop-down li:hover {
+    background: rgb(227, 211, 211);
+    color: #0095ff;
+    border-radius: 0.5rem;
+    opacity: 20%;
+}
+
+.Pay {
+    width: 100%;
+    height: 900px;
+    border: 2px solid;
+}
+.dropdown input {
+    box-sizing: border-box;
+    width: 100%;
+    padding: 8px;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 100%;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    max-height: 150px;
+    overflow-y: auto;
+}
+
+.dropdown-content div {
+    padding: 8px 16px;
+    cursor: pointer;
+}
+
+.dropdown-content div:hover {
+    background-color: #f1f1f1;
+}
+
+.show {
+    display: block;
+}
+
+.container{
+    margin-top: 20px;
+}
+
+.float-title{
+    float: left;
+}
+
+.text-align{
+    text-align: left;
+}
+.form-check{
+    padding-left: 40px;
+}
+.logo-pay{
+    text-decoration: none;
+    font-size:xx-large;
+    padding-left: 8%;
+    color: #2a9dcc;
+}
+.logo-login{
+    float: right;
+    text-decoration: none;
+    font-size:large ;
+}
+.logo-login img{
+    width: 21px;
+    height: auto;
+    
+}
+
+.icon-img img{
+    width: 40%;
+    height: auto;
+}
+
+.product{
+    display: flex;
+    margin-top: 3%;
+}
+.product img{
+    width: 30%;
+    height: auto;
+}
+.name-title{
+    font-weight: bolder;
+}
+.order{
+    border-bottom: 1px solid #e1e1e1;
+    padding: 10px 0px;
+}
+.order h5{
+    color: #333;
+    font-weight: 600;
+}
+.color-price-div{
+    margin-left: 4%;
+    margin-top: 3%;
+}
+.order-list{
+    background-color: #fafafa;
+
+}
+.product-price, .product-color{
+    color: #717171;
+}
+.total-container{
+    display: flex;
+    margin-top: 10%;
+    justify-content: space-between;
+    color: #717171;
+    font-size: large;
+}
+.btnbuy{
+    float: right;
+    cursor: pointer;
+    background-color: #357ebd;
+    border-color: #2f71a9;
+    border: 1px transparent solid;
+    border-radius: 5px;
+    color: #fff;
+    font-weight: 500;
+    padding: .80em 1.7em;
+    text-align: center;
+}
+.btnbuy:hover {
+    background-color: #25639a;
+}
+.btnbuy-div{
+    margin-top: 10%;
+}
+
+.quantity{
+    color: #717171;
+}

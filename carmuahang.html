@@ -1,0 +1,417 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="carmuahang.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="BHeader">
+        <div class="container">
+            <div class="support">
+                <a href="#">
+                    <p>
+                        <i class="fa-solid fa-envelope"></i>
+                        support@sapo.vn 
+                    </p>
+                </a>
+                <a href="#">
+                    <p>
+                        <i class="fa-solid fa-phone"></i>
+                        1900 6750
+                    </p>
+                </a>
+            </div>
+          <a href="#"><img class="IMG" src="logo.webp" alt=""></a>
+          
+            <div class="IMG-btn">
+            </div>
+            <div class="login">
+                <div class="search">
+                    <input type="text" placeholder="Tìm Kiếm">
+                </div>
+                <div class="dangnhap">
+                    <a href="#">
+                        
+                        <p>Đăng nhập
+                            <i class="fa-solid fa-user"></i>
+                        </p>
+                    </a>
+                </div>
+                <div class="dangky">
+                    <a href="#">
+                        
+                        <p>Đăng ký
+                            <i class="fa-solid fa-user-plus"></i>
+                        </p>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="IMG-btn2"></div>
+        <div class="IMG-btn3"></div>
+        <div class="IMG-btn21"></div>
+        <div class="IMG-btn31"></div>
+    
+        <div class="container1">
+            <nav class="navbar">
+                <ul class="nav-links">
+                    <li class="nav-link">
+                        <a href="#">Trang Chủ</a>
+                    </li>
+                    <li class="nav-link services">
+                        <a href="#">Sản Phẩm
+                            <span class="icon">
+                                <i class="fa-solid fa-chevron-down"></i>
+                            </span>
+                        </a>
+    
+                        <ul class="drop-down">
+                            <a href="giatri.html">  <li>Sản phẩm mới</li></a>
+                            <a href="sanphamnoibat.html"><li>Sản phẩm nổi bật</li></a> 
+                            <li>Sản phẩm khuyến mãi</li>
+                            <li>Honda</li>
+                            <li>Mercedes Benz</li>
+    
+                        </ul>
+                    </li>
+                    <li class="nav-link">
+                        <a href="#">Giới Thiệu</a>
+                    </li>
+                    <li class="nav-link">
+                        <a href="#">Liên Hệ</a>
+                    </li>
+    
+                </ul>
+            </nav>
+        </div>  
+    </div>
+
+    <div class="car-big-img">
+        <div class="slide active">
+            <img id="bigimg" src="File hình trang mua hàng/Mertrang.jpg" alt="xe hơi">
+        </div>
+        <div class="slide">
+            <img src="File hình trang mua hàng/Merđen.jpg" alt="">
+        </div>
+        <div class="thumbnails">
+            <img src="File hình trang mua hàng/Mertrang.jpg" data-slide="0">
+            <img src="File hình trang mua hàng/Merđen.jpg" data-slide="1">
+        </div>
+    </div>
+    <div class="status-container">
+        <div class="name-price">
+            <div>
+                <h2 id="productname">Maybach</h2>
+            </div>
+            <span id="carprice" class="price" value="8.799.000.000₫">8.799.000.000</span>
+        </div>
+        <div>
+            <span><b>Mã sản phẩm:</b> (đang cập nhật)</span><br>
+            <span><b>Nhà sản xuất:</b> Mercedes</span><br><br>
+            <ul>
+                <li>Xăng 1.5L Duratec 16 Van</li>
+                <li>Hệ thống nhiên liệu phun đa điểm</li>
+                <li>Hệ thống lái trợ lực điện điều khiển điện tử</li>
+                <li>Hộp số tự động 6 cấp PowerShift</li>
+            </ul>
+        </div>
+    </div>
+    <div  class="color-container-div">
+        <div class="color-container">
+            <span>Màu sắc</span>
+            <select id="selected" class=" select-color">
+                <option>Trắng</option>
+                <option>Đen</option>
+            </select>
+        </div>
+        <div id="clear" class="btn-sold">
+            <p>Số lượng:</p>
+            <button id="btn1" type="button">-</button>
+            <input id="numbers" type="text" disabled="true" value="1" min="1">
+            <button id="btn" type="button">+</button>
+            <button id="btnbuy"><a href="pay.html" onclick="submitForm()">Mua hàng</a></button>
+           
+        </div>
+        <script src="pay-card.js"></script>
+        <script src="productdetail.js"></script>
+    </div>
+    <div class="car-detail-container">
+        <button class="tablink" onclick="openPage('Home', this, 'white')" id="defaultOpen">Mô tả</button>
+        <button class="tablink" onclick="openPage('News', this, 'white')">Hướng dẫn mua hàng</button>
+
+        <div id="Home" class="tabcontent">
+            <p> MAYBACH mới vượt xa các loại xe khác cùng dòng nhờ động cơ Duratorq TDCi 2.5L vô địch với công suất
+                143PS và mô men xoắn 330Nm. Ngoài ra, hệ thống khung gầm chắc chắn với kết cấu các dầm bậc thang gối lên
+                nhau càng làm tăng thêm độ vững chãi của xe. Hãy cảm nhận sức mạnh đích thực khi tăng tốc và tạo dấu ấn
+                riêng cả bạn.</p>
+            <p> MAYBACH mới hiện đại đến từng chi tiết, từ cửa gió bên hông xe sơn nhũ bạc đến kiểu dáng gương chiếu
+                hậu tích hợp đèn báo rẽ. Ngay khi vừa lăn bánh, bạn đã khiến mọi người phải chú ý với chiếc vành xe 18″
+                kiểu thể thao ấn tượng. Không chỉ thế, mọi khách hàng đều tận hưởng cảm giác khoan khoái, thư giãn với
+                hệ thống 3 dàn cửa gió.</p>
+
+            <img src="File hình trang mua hàng/Merđen.jpg" alt="">
+            <p> MAYBACH mới cung cấp cho bạn tất cả mọi thứ từ sự thoải mái của ghế ngồi bọc da và ghế ngồi cho đến 7 chỗ
+                để chân rộng rãi, giắc cắm dành cho iPod của bạn và CD tương thích MP3 6 đĩa 6 loa, làm cho mỗi cuộc
+                hành trình, dù bạn đi đâu, vẫn luôn có cảm giác thoải mái nhất.</p>
+            <p> MAYBACH được trang bị một động cơ 2.5 lít Duratorq TDCi với công suất 143PS và mô men xoắn 330Nm đem đến
+                cho bạn trải nghiệm 4×2 chinh phục mọi địa hình mà bạn muốn.</p>
+            <img src="File hình trang mua hàng/Mertrang.jpg" alt="">
+        </div>
+
+        <div id="News" class="tabcontent">
+            <p>Bước 1: Tìm sản phẩm cần mua Bạn có thể truy cập website để tìm và chọn sản phẩm muốn mua bằng nhiều
+                cách:</p>
+            <p>+ Sử dụng ô tìm kiếm phía trên, gõ tên sản phẩm muốn mua (có thể tìm đích danh 1 sản phẩm, tìm theo
+                hãng...). Website sẽ cung cấp cho bạn những gợi ý chính xác để lựa chọn:</p>
+            <p>Bước 2: Đặt mua sản phẩm Sau khi chọn được sản phẩm ưng ý muốn mua, bạn tiến hành đặt hàng bằng cách:</p>
+            <p>+ Chọn vào nút MUA NGAY nếu bạn muốn thanh toán luôn toàn bộ giá tiền sản phẩm</p>
+            <p>+ Điền đầy đủ các thông tin mua hàng theo các bước trên website, sau đó chọn hình thức nhận hàng là giao
+                hàng tận nơi hay đến siêu thị lấy hàng, chọn hình thức thanh toán là trả khi nhận hàng hay thanh toán
+                online (bằng thẻ ATM, VISA hay MasterCard) và hoàn tất đặt hàng.</p>
+            <p>+Lưu ý:</p>
+            <p>1. Chúng tôi chỉ chấp nhận những đơn đặt hàng khi cung cấp đủ thông tin chính xác về địa chỉ, số điện
+                thoại. Sau khi bạn đặt hàng, chúng tôi sẽ liên lạc lại để kiểm tra thông tin và thỏa thuận thêm những
+                điều có liên quan.</p>
+            <p>2. Một số trường hợp nhạy cảm: giá trị đơn hàng quá lớn & thời gian giao hàng vào buổi tối địa chỉ giao
+                hàng trong ngõ hoặc có thể dẫn đến nguy hiểm. Chúng tôi sẽ chủ động liên lạc với quý khách để thống nhất
+                lại thời gian giao hàng cụ thể.</p>
+        </div>
+    </div>
+    <div class="product-relate-container">
+        <div class="product-relate">
+            <h2>Sản phẩm liên quan</h2>
+        </div>
+        <div class="box"></div>
+    </div>
+    <div class="list-car-container">
+        <div class="product-container">
+            <div class="img-box">
+                <img src="File hình trang mua hàng/maybach.jpg" alt="">
+                <div class="price-box">8.000.000.000₫</div>
+            </div>
+            <div class="product-info">
+                <h3 class="product-name">
+                    <a href="giatri.html"> Maybach S</a>
+                </h3>
+            </div>
+            <div class="product-action">
+                <a class="btn-card" href="giatri.html">
+                    <img src="shopping-cart-11-svgrepo-com.svg" alt="">
+                    Tùy chọn</a>
+                <a class="btn-card" href="chitiet.html">
+                    <img src="eye-svgrepo-com.svg" alt="">
+                    Chi tiết</a>
+            </div>
+        </div>
+        <div class="product-container">
+            <div class="img-box">
+                <img src="File hình trang mua hàng/AMG - 6t7.jpg" alt="">
+                <div class="price-box">6.700.000.000₫</div>
+            </div>
+            <div class="product-info">
+                <h3 class="product-name">
+                    <a href="giatri.html"> AMG GT 4 door</a>
+                </h3>
+            </div>
+            <div class="product-action">
+                <a class="btn-card" href="giatri.html">
+                    <img src="shopping-cart-11-svgrepo-com.svg" alt="">
+                    Tùy chọn</a>
+                <a class="btn-card" href="chitiet.html">
+                    <img src="eye-svgrepo-com.svg" alt="">
+                    Chi tiết</a>
+            </div>
+        </div>
+        <div class="product-container">
+            <div class="img-box">
+                <img src="File hình trang mua hàng/Audi Q2.jpg" alt="">
+                <div class="price-box">1.700.000.000₫</div>
+            </div>
+            <div class="product-info">
+                <h3 class="product-name">
+                    <a href="giatri.html"> Audi Q2</a>
+                </h3>
+            </div>
+            <div class="product-action">
+                <a class="btn-card" href="giatri.html">
+                    <img src="shopping-cart-11-svgrepo-com.svg" alt="">
+                    Tùy chọn</a>
+                <a class="btn-card" href="chitiet.html">
+                    <img src="eye-svgrepo-com.svg" alt="">
+                    Chi tiết</a>
+            </div>
+        </div>
+        <div class="product-container">
+            <div class="img-box">
+                <img src="File hình trang mua hàng/Audi Etron.jpg" alt="">
+                <div class="price-box">5.200.000.000₫</div>
+            </div>
+            <div class="product-info">
+                <h3 class="product-name">
+                    <a href="giatri.html"> Audi E-tron GT</a>
+                </h3>
+            </div>
+            <div class="product-action">
+                <a class="btn-card" href="giatri.html">
+                    <img src="shopping-cart-11-svgrepo-com.svg" alt="">
+                    Tùy chọn</a>
+                <a class="btn-card" href="chitiet.html">
+                    <img src="eye-svgrepo-com.svg" alt="">
+                    Chi tiết</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="End">
+        <div class="Showroom">
+            <div class="container-showroom">
+                <div class="items-showroom">
+                    <h3 style="color: #00a2d1;">Showroom</h3>
+                </br>
+                <p>Tầng 6 - Tòa nhà Ladeco - 266 Đội Cấn, Hà Nội</p>
+                </div>
+                <div class="items-showroom">
+                    <h3 style="color: #00a2d1;">Giờ mở cừa</h3>
+                </br>
+                    <p>Thứ 2 - Thứ 6: 8:00 - 21:00</p>
+                    <p>Thứ 7 - Chủ nhật: 8:30 - 22:30 </p>
+                </div>
+                <div class="items-showroom">
+                    <h3 style="color: #00a2d1;">Hỗ trợ tư vấn</h3>
+                </br>
+                    <p>1900 6750</p>
+               
+                </div>
+                <div class="items-showroom">
+                    <h3 style="color: #00a2d1;">Email</h3>
+                </br>
+                    <p>support@sapo.vn    </p>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="Thongtin">
+            <div class="container-thongtin">
+                <div class="items-thongtin">
+                    <h3 style="color: white;">Thông tin</h3>
+                </br>
+                <a href="#"> <p>Trang chủ</p></a>
+            </br>
+              <a href="#"><p>Sản phẩm</p></a> 
+            </br>
+               <a href="#"><p>Giới thiệu</p></a>
+            </br>
+               <a href="#"><p>Tin tức</p></a> 
+            </br>
+               <a href="#"><p>Liên hệ</p></a> 
+
+                </div>
+                <div class="items-thongtin">
+                    <h3 style="color: white;">Hỗ trợ</h3>
+                </br>
+                <a href="#"> <p>Trang chủ</p></a>
+            </br>
+              <a href="#"><p>Sản phẩm</p></a> 
+            </br>
+               <a href="#"><p>Giới thiệu</p></a>
+            </br>
+               <a href="#"><p>Tin tức</p></a> 
+            </br>
+               <a href="#"><p>Liên hệ</p></a> 
+
+                </div>
+                <div class="items-thongtin">
+                    <h3 style="color: white;">Hướng dẫn</h3>
+                </br>
+                <p>Trang chủ</p>
+            </br>
+                <p>Sản phẩm</p>
+            </br>
+                <p>Giới thiệu</p>
+            </br>
+                <p>Tin tức</p>
+            </br>
+                <p>Liên hệ</p>
+                </div>
+                <div class="items-thongtin">
+                    <h3 style="color: white;">Chính sách</h3>
+                </br>
+                <p>Trang chủ</p>
+            </br>
+                <p>Sản phẩm</p>
+            </br>
+                <p>Giới thiệu</p>
+            </br>
+                <p>Tin tức</p>
+            </br>
+                <p>Liên hệ</p>
+                </div>
+
+            </div>
+        </div>
+        <div class="Banquyen">
+            <div class="container-banquyen">
+                <div class="items-banquyen">
+                    <a href="#"><h4>Bản quyền thuộc về Avent Team | Cung cấp bởi Sapo</h4>
+                    </a>
+                   
+                </div>
+                <div class="items-banquyen">
+                    <div class="items-banquyen1">
+                        <div class="banquyen">
+                            <DIV class="icon-banquyen">
+                                <div class="banquyen">
+                                    <DIV class="icon-banquyen">
+                                        <DIV class="icon instagram">
+                                            <span class="tooltip">Instagram</span>
+                                    <a href="#"><span style="font-size: 30px;"><i class="fa-brands fa-square-instagram"></i></span></a>    
+                                        </DIV>
+                                    </DIV>
+                                </div>
+                            </DIV>
+                        </div>
+                    </div>
+                    <div class="items-banquyen2">
+                        <div class="banquyen">
+                            <DIV class="icon-banquyen">
+                                <DIV class="icon instagram">
+                                    <span class="tooltip">Facebook</span>
+                                  <a href="#"> <span style="font-size: 30px;"><i class="fa-brands fa-facebook"></i></span></a> 
+                                </DIV>
+                            </DIV>
+                        </div>
+                    </div>
+                    <div class="items-banquyen3">
+                        <div class="banquyen">
+                            <DIV class="icon-banquyen">
+                                <DIV class="icon instagram">
+                                    <span class="tooltip">Twitter</span>
+                                   <a href="#"> <span style="font-size: 30px;"><i class="fa-brands fa-twitter"></i></span></a>
+                                </DIV>
+                            </DIV>
+                        </div>
+                    </div>
+                    <div class="items-banquyen4">
+                        <div class="banquyen">
+                            <DIV class="icon-banquyen">
+                                <DIV class="icon instagram">
+                                    <span class="tooltip">Google</span>
+                                  <a href="#">  <span style="font-size: 30px;"><i class="fa-brands fa-google"></i></a>
+                                    </span>
+                                </DIV>
+                            </DIV>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+    </div>
+</body>
+</body>
+</html>

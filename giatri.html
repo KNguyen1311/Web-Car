@@ -1,0 +1,615 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="giatri.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="BHeader">
+        <div class="container">
+            <div class="support">
+                <a href="#">
+                    <p>
+                        <i class="fa-solid fa-envelope"></i>
+                        support@sapo.vn 
+                    </p>
+                </a>
+                <a href="#">
+                    <p>
+                        <i class="fa-solid fa-phone"></i>
+                        1900 6750
+                    </p>
+                </a>
+            </div>
+          <a href="#"><img class="IMG" src="logo.webp" alt=""></a>
+          
+            <div class="IMG-btn">
+            </div>
+            <div class="login">
+                <div class="search">
+                    <input type="text" id="searchInput" onkeyup="searchFunction()" placeholder="Tìm kiếm">  </div>
+                <div class="dangnhap">
+                    <a href="dangnhap.html">
+                        
+                        <p>Đăng nhập
+                            <i class="fa-solid fa-user"></i>
+                        </p>
+                    </a>
+                </div>
+                <div class="dangky">
+                    <a href="dangky.html">
+                        
+                        <p>Đăng ký
+                            <i class="fa-solid fa-user-plus"></i>
+                        </p>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="IMG-btn2"></div>
+        <div class="IMG-btn3"></div>
+        <div class="IMG-btn21"></div>
+        <div class="IMG-btn31"></div>
+    
+        <div class="container1">
+            <nav class="navbar">
+                <ul class="nav-links">
+                    <li class="nav-link">
+                        <a href="Trang đầu tiên.html">Trang Chủ</a>
+                    </li>
+                    <li class="nav-link services">
+                        <a href="#">Sản Phẩm
+                            <span class="icon">
+                                <i class="fa-solid fa-chevron-down"></i>
+                            </span>
+                        </a>
+    
+                        <ul class="drop-down">
+                            <li>Sản phẩm mới</li>
+                           <a href="sanphamnoibat.html"><li>Sản phẩm nổi bật</li></a> 
+                            <li>Sản phẩm khuyến mãi</li>
+                            <li>Honda</li>
+                            <li>Mercedes Benz</li>
+    
+                        </ul>
+                    </li>
+                    <li class="nav-link">
+                        <a href="#">Giới Thiệu</a>
+                    </li>
+                    <li class="nav-link">
+                        <a href="#">Liên Hệ</a>
+                    </li>
+    
+                </ul>
+            </nav>
+        </div>  
+    </div>
+
+    <div class="Thanbai">
+        <a href="File.html"><p class="trangchu">Trang chủ</p></a>
+        <p class="sanphammoi" style="color: #00a2d1;">Sản phẩm mới</p></a>
+    <hr/>
+    <div class="Danhmuc">
+        <div class="Danhmuc-1">
+            <H2 style="color: white;">DANH MỤC</H2>
+        </div>
+        <div class="Danhmuc-2">
+            <div class="items-danhmuc">
+                <a href="Trang đầu tiên.html">
+                    <p>Trang chủ</p>
+                </a></div>
+            <div class="items-danhmuc">
+                <a href="giatri.html">
+                    <p>Sản phẩm</p>
+                </a>
+            </div>
+            <div class="items-danhmuc"><p>Giới thiệu</p></div>
+            <div class="items-danhmuc"><p>Tin tức</p></div>
+            <div class="items-danhmuc"><p>Liên hệ</p></div>
+        </div>
+    </div>
+
+    <div class="Thanbai-SP">
+        <h2 style="color: black;">SẢN PHẨM</h2>
+    </div>
+    <div class="Danhmuc-SP">
+        <div class="Thanhdanhmuc">
+            <select id="sortSelect">
+                <option value="default">Mặc định</option>
+                <option value="asc">Giá tăng dần</option>
+                <option value="desc">Giá giảm dần</option>
+            </select>
+        </div>
+        <div class="danhmuc-product">
+                <div id="danhmucList">
+                    <div class="product page1" data-price="11175000000" data-name="Mercedes - G Class">
+                        <a href="carmuahangmer.html">
+                            <img src="File hình Sản Phẩm/Mercedes - G Class - 11.750.000.000.webp" alt="Mercedes -G Class">
+                            <p>Mercedes - G Class - 11.750.000đ</p>
+                        </a>
+                        <hr/>
+                     <div class="giohang">
+                        <div class="items-giohang">
+                            <a href="carmuahangmer.html">         <p><i class="fa-solid fa-cart-shopping"></i>
+                                Mua hàng</p></a>
+                        </div>
+                        <div class="items-giohang">
+                            <a href="chitiet.html">     <p><i class="fa-solid fa-eye"></i>
+                                Chi tiết</p></a>
+                        </div>
+
+                     </div>
+                    </div>
+                    <div class="product page1" data-price="4850000000" data-name="Mercedes - G Couple">
+                        <a href="cardialmercouple.html">
+                            <img src="File hình Sản Phẩm/Mercedes - G Couple 4.850.000.000.webp" alt="Mercedes - G Couple">
+                            <p>Mercedes - Couple 4.850.000.000</p>
+                        </a>
+                        <hr/>
+                        <div class="giohang">
+                           <div class="items-giohang">
+                               <a href="cardialmercouple.html">         <p><i class="fa-solid fa-cart-shopping"></i>
+                                   Mua hàng</p></a>
+                           </div>
+                           <div class="items-giohang">
+                               <a href="chitiet.html">     <p><i class="fa-solid fa-eye"></i>
+                                   Chi tiết</p></a>
+                           </div>
+   
+                        </div>
+                    </div>
+                    <div class="product page1" data-price="8799000000" data-name="Mercedes Maybach GLS">
+                        <a href="carmuahang.html">
+                            <img src="File hình Sản Phẩm/Mercedes - Maybach GLS - 8.799.000.000.webp" alt="Mercedes Maybach GLS">
+                            <p> Maybach 8.799.000.000đ</p>
+                        </a>
+                        <hr/>
+                        <div class="giohang">
+                           <div class="items-giohang">
+                               <a href="carmuahang.html">         <p><i class="fa-solid fa-cart-shopping"></i>
+                                   Mua hàng</p></a>
+                           </div>
+                           <div class="items-giohang">
+                               <a href="chitiet.html">     <p><i class="fa-solid fa-eye"></i>
+                                   Chi tiết</p></a>
+                           </div>
+   
+                        </div>
+                    </div>
+                    <div class="product page1" data-price="8000000000" data-name="Mercedes Maybach S">
+                        <a href="#">
+                            <img src="File hình Sản Phẩm/Mercedes - Maybach S - 8.000.000.000.webp" alt="Mercedes Maybach S">
+                            <p> Maybach S - 8.000.000.000đ</p>
+                        </a>
+                        <hr/>
+                        <div class="giohang">
+                           <div class="items-giohang">
+                               <a href="cardial.html">         <p><i class="fa-solid fa-cart-shopping"></i>
+                                   Mua hàng</p></a>
+                           </div>
+                           <div class="items-giohang">
+                               <a href="chitiet.html">     <p><i class="fa-solid fa-eye"></i>
+                                   Chi tiết</p></a>
+                           </div>
+   
+                        </div>
+                    </div>
+                    <div class="product page1" data-price="6700000000" data-name="Mercedes - AMG 4-door">
+                        <a href="#">
+                            <img src="File hình Sản Phẩm/Mercedes - AMG GT 4-door - 6.700.000.000.webp" alt="Mercedes - AMG 4-door">
+                            <p>AMG GT 4-door- 6.700.000.000đ</p>
+                        </a>
+                        <hr/>
+                        <div class="giohang">
+                           <div class="items-giohang">
+                               <a href="cardial.html">         <p><i class="fa-solid fa-cart-shopping"></i>
+                                   Mua hàng</p></a>
+                           </div>
+                           <div class="items-giohang">
+                               <a href="chitiet.html">     <p><i class="fa-solid fa-eye"></i>
+                                   Chi tiết</p></a>
+                           </div>
+   
+                        </div>
+                    </div>
+                    <div class="product page1" data-price="2299000000">
+                        <a href="#">
+                            <img src="File hình Sản Phẩm/BMW - 328i -2.299.000.000.jpg" alt="BMW - 328i" height="130px">
+                            <p>BMW 328i - 2.299.000.000đ</p>
+                        </a>
+                        <hr/>
+                        <div class="giohang">
+                           <div class="items-giohang">
+                               <a href="cardial.html">         <p><i class="fa-solid fa-cart-shopping"></i>
+                                   Mua hàng</p></a>
+                           </div>
+                           <div class="items-giohang">
+                               <a href="cardial.html">     <p><i class="fa-solid fa-eye"></i>
+                                   Chi tiết</p></a>
+                           </div>
+   
+                        </div>
+                    </div>
+                    <div class="product page1" data-price="2089000000">
+                        <a href="#">
+                            <img src="File hình Sản Phẩm/BMW - 420i Convertible - 2.089.000.000.jpg" alt="BMW - 420i Convertible">
+                            <p>BMW 420i - 2.089.000.000</p>
+                        </a>
+                        <hr/>
+                        <div class="giohang">
+                           <div class="items-giohang">
+                               <a href="cardial.html">         <p><i class="fa-solid fa-cart-shopping"></i>
+                                   Mua hàng</p></a>
+                           </div>
+                           <div class="items-giohang">
+                               <a href="cardial.html">     <p><i class="fa-solid fa-eye"></i>
+                                   Chi tiết</p></a>
+                           </div>
+   
+                        </div>
+                    </div>
+                    <div class="product page1" data-price="5200000000">
+                        <a href="#">
+                            <img src="File hình Sản Phẩm/Audi - E-tron GT -5.200.000.000.png" alt="Audi -E-tron GT">
+                            <p>Audi - E-tron GT - 5.200.000.000đ</p>
+                        </a>
+                        <hr/>
+                        <div class="giohang">
+                           <div class="items-giohang">
+                               <a href="cardial.html">         <p><i class="fa-solid fa-cart-shopping"></i>
+                                   Mua hàng</p></a>
+                           </div>
+                           <div class="items-giohang">
+                               <a href="cardial.html">     <p><i class="fa-solid fa-eye"></i>
+                                   Chi tiết</p></a>
+                           </div>
+   
+                        </div>
+                    </div>
+                    <div class="product page1" data-price="1700000000">
+                        <a href="#">
+                            <img src="File hình Sản Phẩm/Audi Q2 - 1.700.000.000.jpg" alt="Audi Q2">
+                            <p>Audi Q2 - 1.700.000.000</p>
+                        </a>
+                        <hr/>
+                        <div class="giohang">
+                           <div class="items-giohang">
+                               <a href="cardial.html">         <p><i class="fa-solid fa-cart-shopping"></i>
+                                   Mua hàng</p></a>
+                           </div>
+                           <div class="items-giohang">
+                               <a href="cardial.html">     <p><i class="fa-solid fa-eye"></i>
+                                   Chi tiết</p></a>
+                           </div>
+   
+                        </div>
+                    </div>
+
+                    <div class="product page2" data-price="2000000000">
+                        <a href="#"> 
+                             <img src="Camry.webp" alt="Toyota Camry">
+                            <p>Toyota Camry - 2.000.000.000đ</p></a>
+                            <hr/>
+                            <div class="giohang">
+                               <div class="items-giohang">
+                                   <a href="cardial.html">         <p><i class="fa-solid fa-cart-shopping"></i>
+                                       Mua hàng</p></a>
+                               </div>
+                               <div class="items-giohang">
+                                   <a href="cardial.html">     <p><i class="fa-solid fa-eye"></i>
+                                       Chi tiết</p></a>
+                               </div>
+       
+                            </div>
+                    </div>
+                    <div class="product page2" data-price="570000000">
+                        <a href="#">   
+                              <img src="File hình Sản Phẩm/Ford Fiesta 5 cửa 1.5 AT Trend - 570.000.000đ.webp" alt="Ford Fiesta 5">
+                            <p>Ford Fiesta 5  - 570.000.000đ</p></a>
+                            <hr/>
+                            <div class="giohang">
+                               <div class="items-giohang">
+                                   <a href="cardial.html">         <p><i class="fa-solid fa-cart-shopping"></i>
+                                       Mua hàng</p></a>
+                               </div>
+                               <div class="items-giohang">
+                                   <a href="cardial.html">     <p><i class="fa-solid fa-eye"></i>
+                                       Chi tiết</p></a>
+                               </div>
+       
+                            </div>
+                    </div>
+                    <div class="product page2" data-price="580000000">
+                        <a href="#">
+                             <img src="File hình Sản Phẩm/Ford Fiesta Sedan 1.5 AT Titanium - 580.000.000đ.webp" alt="Ford Fiesta Sedan 1.5">
+                            <p>Ford Fiesta Sedan  - 580.000.000đ</p></a>
+                            <hr/>
+                            <div class="giohang">
+                               <div class="items-giohang">
+                                   <a href="cardial.html">         <p><i class="fa-solid fa-cart-shopping"></i>
+                                       Mua hàng</p></a>
+                               </div>
+                               <div class="items-giohang">
+                                   <a href="cardial.html">     <p><i class="fa-solid fa-eye"></i>
+                                       Chi tiết</p></a>
+                               </div>
+       
+                            </div>
+                       
+                    </div>
+                    <div class="product page2" data-price="730000000">
+                        <a href="#">
+                             <img src="File hình Sản Phẩm/Ford Focus 1.6 4 cửa Trend 6PS - 730.000.000đ.webp" alt="Ford Focus 1.6 cửa Trend 6PS">
+                            <p>Ford Focus 1.6  - 730.000.000đ</p></a>
+                            <hr/>
+                            <div class="giohang">
+                               <div class="items-giohang">
+                                   <a href="cardial.html">         <p><i class="fa-solid fa-cart-shopping"></i>
+                                       Mua hàng</p></a>
+                               </div>
+                               <div class="items-giohang">
+                                   <a href="cardial.html">     <p><i class="fa-solid fa-eye"></i>
+                                       Chi tiết</p></a>
+                               </div>
+       
+                            </div>
+                
+                    </div>
+                    <div class="product page2" data-price="850000000">
+                        <a href="#">  
+                               <img src="File hình Sản Phẩm/Ford Focus 2.0L 4 cửa Titaniu 6PS - 850.000.000đ.webp" alt="Ford Focus 2.0L cuwrwa Titanium 6PS">
+                            <p>Ford Focus 2.0L  - 850.000.000đ</p></a>
+                            <hr/>
+                            <div class="giohang">
+                               <div class="items-giohang">
+                                   <a href="cardial.html">         <p><i class="fa-solid fa-cart-shopping"></i>
+                                       Mua hàng</p></a>
+                               </div>
+                               <div class="items-giohang">
+                                   <a href="cardial.html">     <p><i class="fa-solid fa-eye"></i>
+                                       Chi tiết</p></a>
+                               </div>
+       
+                            </div>
+                   
+                    </div>
+                    <div class="product page2" data-price="700000000">
+                        <a href="#">
+                            <img src="File hình Sản Phẩm/Toyota Yaris - 700.000.000.webp" alt="Toyota Yaris">
+                            <p>Toyota Yaris - 700.000.000đ</p>
+                        </a>
+                        <hr/>
+                        <div class="giohang">
+                           <div class="items-giohang">
+                               <a href="cardial.html">         <p><i class="fa-solid fa-cart-shopping"></i>
+                                   Mua hàng</p></a>
+                           </div>
+                           <div class="items-giohang">
+                               <a href="cardial.html">     <p><i class="fa-solid fa-eye"></i>
+                                   Chi tiết</p></a>
+                           </div>
+   
+                        </div>
+                
+                    </div>
+                    <div class="product page2" data-price="2700000000">
+                        <a href="#">        
+                            <img src="File hình Sản Phẩm/Volkswagen Scirocco 2.0 - 2.700.000.000.webp" alt="Volkswagen Scirocco 2.0">
+                            <p>Volkswagen  - 2.700.000.000đ</p></a>
+                            <hr/>
+                            <div class="giohang">
+                               <div class="items-giohang">
+                                   <a href="cardial.html">         <p><i class="fa-solid fa-cart-shopping"></i>
+                                       Mua hàng</p></a>
+                               </div>
+                               <div class="items-giohang">
+                                   <a href="cardial.html">     <p><i class="fa-solid fa-eye"></i>
+                                       Chi tiết</p></a>
+                               </div>
+       
+                            </div>
+                
+                    </div>
+                    <div class="product page2" data-price="470000000">
+                        <a href="#">
+                            <img src="File hình Sản Phẩm/Mitsubishi Attrange GLX T - 470.000.000đ.webp" alt="Mitsubishi">
+                            <p>Mitsubishi Attrange - 470.000.000đ</p>
+                        </a>
+                        <hr/>
+                        <div class="giohang">
+                           <div class="items-giohang">
+                               <a href="cardial.html">         <p><i class="fa-solid fa-cart-shopping"></i>
+                                   Mua hàng</p></a>
+                           </div>
+                           <div class="items-giohang">
+                               <a href="cardial.html">     <p><i class="fa-solid fa-eye"></i>
+                                   Chi tiết</p></a>
+                           </div>
+   
+                        </div>
+                    </div>
+                    <div class="product page2" data-price="1000000000">
+                        <a href="#">
+                            <img src="File hình Sản Phẩm/Toyota COVID - 1.000.000.000.webp" alt="Mitsubishi">
+                            <p>Toyota COVID - 1.000.000.000đ</p>
+                        </a>
+                        <hr/>
+                        <div class="giohang">
+                           <div class="items-giohang">
+                               <a href="cardial.html">         <p><i class="fa-solid fa-cart-shopping"></i>
+                                   Mua hàng</p></a>
+                           </div>
+                           <div class="items-giohang">
+                               <a href="cardial.html">     <p><i class="fa-solid fa-eye"></i>
+                                   Chi tiết</p></a>
+                           </div>
+   
+                        </div>
+                    </div>
+
+                   
+
+
+                </div>
+                <div class="pagination">
+                    <button onclick="showPage(1)">1</button>
+                    <button onclick="showPage(2)">2</button>
+                </div>
+        </div>
+    </div>
+    </div>
+
+    <div class="End">
+        <div class="Showroom">
+            <div class="container-showroom">
+                <div class="items-showroom">
+                    <h3 style="color: #00a2d1;">Showroom</h3>
+                </br>
+                <p>Tầng 6 - Tòa nhà Ladeco - 266 Đội Cấn, Hà Nội</p>
+                </div>
+                <div class="items-showroom">
+                    <h3 style="color: #00a2d1;">Giờ mở cừa</h3>
+                </br>
+                    <p>Thứ 2 - Thứ 6: 8:00 - 21:00</p>
+                    <p>Thứ 7 - Chủ nhật: 8:30 - 22:30 </p>
+                </div>
+                <div class="items-showroom">
+                    <h3 style="color: #00a2d1;">Hỗ trợ tư vấn</h3>
+                </br>
+                    <p>1900 6750</p>
+               
+                </div>
+                <div class="items-showroom">
+                    <h3 style="color: #00a2d1;">Email</h3>
+                </br>
+                    <p>support@sapo.vn    </p>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="Thongtin">
+            <div class="container-thongtin">
+                <div class="items-thongtin">
+                    <h3 style="color: white;">Thông tin</h3>
+                </br>
+                <a href="#"> <p>Trang chủ</p></a>
+            </br>
+              <a href="#"><p>Sản phẩm</p></a> 
+            </br>
+               <a href="#"><p>Giới thiệu</p></a>
+            </br>
+               <a href="#"><p>Tin tức</p></a> 
+            </br>
+               <a href="#"><p>Liên hệ</p></a> 
+
+                </div>
+                <div class="items-thongtin">
+                    <h3 style="color: white;">Hỗ trợ</h3>
+                </br>
+                <a href="#"> <p>Trang chủ</p></a>
+            </br>
+              <a href="#"><p>Sản phẩm</p></a> 
+            </br>
+               <a href="#"><p>Giới thiệu</p></a>
+            </br>
+               <a href="#"><p>Tin tức</p></a> 
+            </br>
+               <a href="#"><p>Liên hệ</p></a> 
+
+                </div>
+                <div class="items-thongtin">
+                    <h3 style="color: white;">Hướng dẫn</h3>
+                </br>
+                <p>Trang chủ</p>
+            </br>
+                <p>Sản phẩm</p>
+            </br>
+                <p>Giới thiệu</p>
+            </br>
+                <p>Tin tức</p>
+            </br>
+                <p>Liên hệ</p>
+                </div>
+                <div class="items-thongtin">
+                    <h3 style="color: white;">Chính sách</h3>
+                </br>
+                <p>Trang chủ</p>
+            </br>
+                <p>Sản phẩm</p>
+            </br>
+                <p>Giới thiệu</p>
+            </br>
+                <p>Tin tức</p>
+            </br>
+                <p>Liên hệ</p>
+                </div>
+
+            </div>
+        </div>
+        <div class="Banquyen">
+            <div class="container-banquyen">
+                <div class="items-banquyen">
+                    <a href="#"><h4>Bản quyền thuộc về Avent Team | Cung cấp bởi Sapo</h4>
+                    </a>
+                   
+                </div>
+                <div class="items-banquyen">
+                    <div class="items-banquyen1">
+                        <div class="banquyen">
+                            <DIV class="icon-banquyen">
+                                <div class="banquyen">
+                                    <DIV class="icon-banquyen">
+                                        <DIV class="icon instagram">
+                                            <span class="tooltip">Instagram</span>
+                                    <a href="#"><span style="font-size: 30px;"><i class="fa-brands fa-square-instagram"></i></span></a>    
+                                        </DIV>
+                                    </DIV>
+                                </div>
+                            </DIV>
+                        </div>
+                    </div>
+                    <div class="items-banquyen2">
+                        <div class="banquyen">
+                            <DIV class="icon-banquyen">
+                                <DIV class="icon instagram">
+                                    <span class="tooltip">Facebook</span>
+                                  <a href="#"> <span style="font-size: 30px;"><i class="fa-brands fa-facebook"></i></span></a> 
+                                </DIV>
+                            </DIV>
+                        </div>
+                    </div>
+                    <div class="items-banquyen3">
+                        <div class="banquyen">
+                            <DIV class="icon-banquyen">
+                                <DIV class="icon instagram">
+                                    <span class="tooltip">Twitter</span>
+                                   <a href="#"> <span style="font-size: 30px;"><i class="fa-brands fa-twitter"></i></span></a>
+                                </DIV>
+                            </DIV>
+                        </div>
+                    </div>
+                    <div class="items-banquyen4">
+                        <div class="banquyen">
+                            <DIV class="icon-banquyen">
+                                <DIV class="icon instagram">
+                                    <span class="tooltip">Google</span>
+                                  <a href="#">  <span style="font-size: 30px;"><i class="fa-brands fa-google"></i></a>
+                                    </span>
+                                </DIV>
+                            </DIV>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+    </div>
+</body>
+</html>
+<script src="giatri.js"></script>
+<script src="search.js"></script>
